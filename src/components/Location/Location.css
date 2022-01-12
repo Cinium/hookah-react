@@ -1,0 +1,26 @@
+
+.location {
+	display: flex;
+	max-width: 300px;
+}
+
+.location__text {
+	display: block;
+}
+
+.location__icon {
+	font-size: 18px;
+	line-height: 21px;
+	margin-right: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+	.location {
+		display: inline-flex;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.contact-info__location {
+	}
+}

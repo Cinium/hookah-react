@@ -1,0 +1,19 @@
+.gallery {
+	white-space: nowrap;
+	overflow-x: scroll;
+	scroll-behavior: smooth;
+	scrollbar-width: none;
+
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.gallery::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery:hover {
+	cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.time {
+	display: flex;
+}
+
+.time__text {
+	display: block;
+}
+
+.time__icon {
+	font-size: 18px;
+	line-height: 21px;
+	margin-right: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+	.time {
+		display: inline-flex;
+	}
+}

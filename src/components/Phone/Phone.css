@@ -1,0 +1,19 @@
+.phone {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 21px;
+}
+
+.phone__icon {
+	font-size: 18px;
+	line-height: 21px;
+	margin-right: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+	.contact-info__phone {
+		display: inline-block;
+	}
+}
